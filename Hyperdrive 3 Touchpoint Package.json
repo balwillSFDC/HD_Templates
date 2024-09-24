@@ -1281,15 +1281,16 @@
               "key": "WAITBYDURATION-18",
               "metaData": { "isConfigured": true, "uiType": "WAITBYDURATION" },
               "configurationArguments": {
-                "waitDuration": 1,
-                "waitUnit": "DAYS"
+                "waitDuration": 2,
+                "waitUnit": "HOURS"
               },
-              "name": "1 day",
+              "name": "2 hours",
               "outcomes": [
                 {
                   "arguments": {},
                   "key": "0854fbfb-5a21-44dd-abf1-3437f3533c6d",
-                  "metaData": { "invalid": false }
+                  "metaData": { "invalid": false, "joinLabel": "" },
+                  "next": "MULTICRITERIADECISIONV2-7"
                 }
               ],
               "schema": { "arguments": {} }
@@ -1328,9 +1329,9 @@
               "metaData": { "isConfigured": true, "uiType": "WAITBYDURATION" },
               "configurationArguments": {
                 "waitDuration": 1,
-                "waitUnit": "DAYS"
+                "waitUnit": "MINUTES"
               },
-              "name": "1 day",
+              "name": "1 minute",
               "outcomes": [
                 {
                   "arguments": {},
@@ -1401,20 +1402,20 @@
               "name": "",
               "outcomes": [
                 {
-                  "arguments": { "percentage": "50" },
+                  "arguments": { "percentage": "90" },
                   "key": "branchResult-1",
                   "metaData": {
-                    "label": "50%",
+                    "label": "90%",
                     "pathName": "Path 1",
                     "invalid": false
                   },
                   "next": "MULTICRITERIADECISIONV2-7"
                 },
                 {
-                  "arguments": { "percentage": "50" },
+                  "arguments": { "percentage": "10" },
                   "key": "branchResult-2",
                   "metaData": {
-                    "label": "50%",
+                    "label": "10%",
                     "pathName": "Path 2",
                     "invalid": false
                   },
@@ -1432,9 +1433,9 @@
               "metaData": { "isConfigured": true, "uiType": "WAITBYDURATION" },
               "configurationArguments": {
                 "waitDuration": 1,
-                "waitUnit": "DAYS"
+                "waitUnit": "MINUTES"
               },
-              "name": "1 day",
+              "name": "1 minute",
               "outcomes": [
                 {
                   "arguments": {},
@@ -1532,9 +1533,9 @@
               "metaData": { "isConfigured": true, "uiType": "WAITBYDURATION" },
               "configurationArguments": {
                 "waitDuration": 1,
-                "waitUnit": "DAYS"
+                "waitUnit": "MINUTES"
               },
-              "name": "1 day",
+              "name": "1 minute",
               "outcomes": [
                 {
                   "arguments": {},
@@ -1553,9 +1554,9 @@
               "metaData": { "isConfigured": true, "uiType": "WAITBYDURATION" },
               "configurationArguments": {
                 "waitDuration": 1,
-                "waitUnit": "DAYS"
+                "waitUnit": "MINUTES"
               },
-              "name": "1 day",
+              "name": "1 minute",
               "outcomes": [
                 {
                   "arguments": {},
@@ -3739,7 +3740,8 @@
                 {
                   "arguments": {},
                   "key": "0854fbfb-5a21-44dd-abf1-3437f3533c6d",
-                  "metaData": { "invalid": false }
+                  "metaData": { "invalid": false, "joinLabel": "" },
+                  "next": "MULTICRITERIADECISIONV2-7"
                 }
               ],
               "schema": { "arguments": {} }
