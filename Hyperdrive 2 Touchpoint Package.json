@@ -1167,12 +1167,12 @@
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
-                      "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}/id}}",
+                      "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}/id}}",
                       "value": 1
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
-                      "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}_date/id}}",
+                      "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_date/id}}",
                       "value": "{{DateTime.Now}}"
                     }
                   ]
@@ -1629,12 +1629,12 @@
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
-                      "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}/id}}",
+                      "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}/id}}",
                       "value": 1
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
-                      "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}_date/id}}",
+                      "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_date/id}}",
                       "value": "{{DateTime.Now}}"
                     }
                   ]
@@ -2822,7 +2822,7 @@
               "isTemplateField": false,
               "masktype": "None",
               "mustOverride": false,
-              "name": "{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}",
+              "name": "{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}",
               "ordinal": 2,
               "type": "Boolean"
             },
@@ -2837,7 +2837,7 @@
               "isTemplateField": false,
               "masktype": "None",
               "mustOverride": false,
-              "name": "{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}_date",
+              "name": "{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_date",
               "ordinal": 3,
               "type": "Date"
             },
@@ -3284,7 +3284,7 @@
               "isTemplateField": false,
               "masktype": "None",
               "mustOverride": false,
-              "name": "{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}",
+              "name": "{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}",
               "ordinal": 2,
               "type": "Boolean"
             },
@@ -3299,7 +3299,7 @@
               "isTemplateField": false,
               "masktype": "None",
               "mustOverride": false,
-              "name": "{{mcpm:Touchpoint2 | label:Touchpoint 1 Name}}_date",
+              "name": "{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_date",
               "ordinal": 3,
               "type": "Date"
             },
