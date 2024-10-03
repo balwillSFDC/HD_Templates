@@ -858,12 +858,12 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:account_id/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/81d772f2-0975-4f55-bacd-789c21b56288/data/eventDefinitionKey}}.\"account_id\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint2 | label:Touchpoint 2 Name}}_UAT.\"account_id\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:email_address/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/81d772f2-0975-4f55-bacd-789c21b56288/data/eventDefinitionKey}}.\"email_address\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint2 | label:Touchpoint 2 Name}}_UAT.\"email_address\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
@@ -1158,12 +1158,12 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:account_id/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/23209534-2daf-4cc1-83f4-f22f71b09cac/data/eventDefinitionKey}}.\"account_id\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_UAT.\"account_id\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:email_address/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/23209534-2daf-4cc1-83f4-f22f71b09cac/data/eventDefinitionKey}}.\"email_address\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_UAT.\"email_address\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2c637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
@@ -1223,7 +1223,7 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2f637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2f637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:account_id/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/23209534-2daf-4cc1-83f4-f22f71b09cac/data/eventDefinitionKey}}.\"account_id\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_UAT.\"account_id\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2f637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
@@ -1233,7 +1233,7 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2f637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2f637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:email_address/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/23209534-2daf-4cc1-83f4-f22f71b09cac/data/eventDefinitionKey}}.\"email_address\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_UAT.\"email_address\"}}"
                     }
                   ]
                 }
@@ -1620,12 +1620,12 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:account_id/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/af993f43-b3a6-4c97-8f60-29d8005c1e7d/data/eventDefinitionKey}}.\"account_id\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_PROD.\"account_id\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:email_address/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/af993f43-b3a6-4c97-8f60-29d8005c1e7d/data/eventDefinitionKey}}.\"email_address\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_PROD.\"email_address\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
@@ -1919,12 +1919,12 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2e637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2e637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:email_address/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/af993f43-b3a6-4c97-8f60-29d8005c1e7d/data/eventDefinitionKey}}.\"email_address\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_PROD.\"email_address\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2e637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2e637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:account_id/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/af993f43-b3a6-4c97-8f60-29d8005c1e7d/data/eventDefinitionKey}}.\"account_id\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint1 | label:Touchpoint 1 Name}}_PROD.\"account_id\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2e637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
@@ -2082,12 +2082,12 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:account_id/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/b6db05ce-0565-40cf-b6e2-3277475c615f/data/eventDefinitionKey}}.\"account_id\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint2 | label:Touchpoint 2 Name}}_PROD.\"account_id\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/fields/name:email_address/id}}",
-                      "value": "{{Event.{{mcpm#/entities/eventDefinitions/b6db05ce-0565-40cf-b6e2-3277475c615f/data/eventDefinitionKey}}.\"email_address\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | label:Campaign Name}}_{{mcpm:Touchpoint2 | label:Touchpoint 2 Name}}_PROD.\"email_address\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/2b637c2f-8681-ef11-a5b4-5cba2c7c09f8/data/id}}",
