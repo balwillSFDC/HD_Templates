@@ -2683,7 +2683,7 @@
                   "dynamicEmailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint2 | label:Touchpoint 2 Name}} placeholder",
                   "emailId": "{{mcpm#/entities/assets/354483/data/data/email/legacy/legacyId}}",
                   "emailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint2 | label:Touchpoint 2 Name}} placeholder",
-                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_UAT\", \"email_address\", email_address))) > 0",
+                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_PROD\", \"email_address\", email_address))) > 0",
                   "isSalesforceTracking": false,
                   "isMultipart": true,
                   "isSendLogging": true,
@@ -3189,12 +3189,12 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/0dd7960b-ac75-ef11-b86f-48df37deb117/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/0dd7960b-ac75-ef11-b86f-48df37deb117/data/fields/name:account_id/id}}",
-                      "value": "{{Event.{{mcpm:CampaignName | Label:Campaign Name}}_{{mcpm:Touchpoint2 | label:Touchpoint 2 Name}}_PROD.\"account_id\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | Label:Campaign Name}}_{{mcpm:Touchpoint3 | label:Touchpoint 3 Name}}_PROD.\"account_id\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/0dd7960b-ac75-ef11-b86f-48df37deb117/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/0dd7960b-ac75-ef11-b86f-48df37deb117/data/fields/name:email_address/id}}",
-                      "value": "{{Event.{{mcpm:CampaignName | Label:Campaign Name}}_{{mcpm:Touchpoint2 | label:Touchpoint 2 Name}}_PROD.\"email_address\"}}"
+                      "value": "{{Event.{{mcpm:CampaignName | Label:Campaign Name}}_{{mcpm:Touchpoint3 | label:Touchpoint 3 Name}}_PROD.\"email_address\"}}"
                     },
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/0dd7960b-ac75-ef11-b86f-48df37deb117/data/id}}",
@@ -3280,7 +3280,7 @@
                   "dynamicEmailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint3 | label:Touchpoint 3 Name}} placeholder",
                   "emailId": "{{mcpm#/entities/assets/354484/data/data/email/legacy/legacyId}}",
                   "emailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint3 | label:Touchpoint 3 Name}} placeholder",
-                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_UAT\", \"email_address\", email_address))) > 0",
+                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_PROD\", \"email_address\", email_address))) > 0",
                   "isSalesforceTracking": false,
                   "isMultipart": true,
                   "isSendLogging": true,
@@ -3342,7 +3342,7 @@
                   "dynamicEmailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint3 | label:Touchpoint 3 Name}} placeholder",
                   "emailId": "{{mcpm#/entities/assets/354484/data/data/email/legacy/legacyId}}",
                   "emailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint3 | label:Touchpoint 3 Name}} placeholder",
-                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_UAT\", \"email_address\", email_address))) > 0",
+                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_PROD\", \"email_address\", email_address))) > 0",
                   "isSalesforceTracking": false,
                   "isMultipart": true,
                   "isSendLogging": true,
@@ -3676,7 +3676,7 @@
                   "dynamicEmailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint1 | label:Touchpoint 1 Name}} placeholder",
                   "emailId": "{{mcpm#/entities/assets/354384/data/data/email/legacy/legacyId}}",
                   "emailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint1 | label:Touchpoint 1 Name}} placeholder",
-                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_UAT\", \"email_address\", email_address))) > 0",
+                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_PROD\", \"email_address\", email_address))) > 0",
                   "isSalesforceTracking": false,
                   "isMultipart": true,
                   "isSendLogging": true,
@@ -3848,7 +3848,7 @@
                     {
                       "dataExtensionId": "{{mcpm#/entities/sharedDataExtensions/a8aacec9-ab75-ef11-b86f-48df37deb117/data/id}}",
                       "field": "{{mcpm#/entities/sharedDataExtensions/a8aacec9-ab75-ef11-b86f-48df37deb117/data/fields/name:date_added/id}}",
-                      "value": "09/18/2024"
+                      "value": "{{DateTime.Now}}"
                     }
                   ]
                 }
@@ -3946,7 +3946,7 @@
                   "dynamicEmailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint1 | label:Touchpoint 1 Name}} placeholder",
                   "emailId": "{{mcpm#/entities/assets/354384/data/data/email/legacy/legacyId}}",
                   "emailSubject": "This is the {{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint1 | label:Touchpoint 1 Name}} placeholder",
-                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_UAT\", \"email_address\", email_address))) > 0",
+                  "exclusionFilter": "ADD(ROWCOUNT(LOOKUPROWS(\"ENT.universal_holdout\", \"email_address\", email_address)), ROWCOUNT(LOOKUPROWS(\"ENT.{{mcpm:CampaignName | label: Campaign Name}}_Control_PROD\", \"email_address\", email_address))) > 0",
                   "isSalesforceTracking": false,
                   "isMultipart": true,
                   "isSendLogging": true,
