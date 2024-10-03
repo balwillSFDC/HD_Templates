@@ -547,7 +547,7 @@
           "description": "",
           "categoryType": "journey",
           "parentId": "{{mcpm#/entities/categories/1651796/data/id}}",
-          "name": "{{mcpm:CampaignName | label:Campaign Name}} {{mcpm:Touchpoint2 | label:Touchpoint 2 Name}}",
+          "name": "{{mcpm:CampaignName | label:Campaign Name}}",
           "editable": 1,
           "extendable": 1
         }
